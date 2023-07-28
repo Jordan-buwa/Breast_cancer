@@ -24,9 +24,9 @@ The objective of this study is to review various deep learning algorithms common
 
 ## Dataset
 
-For this study, we utilized a dataset consisting of 162 whole-mount microscope slide images from patients at the Hospital of the University of Pennsylvania and The Cancer Institute of New Jersey. These images were magnified at 40x, and they were divided into 277,524 patches, each measuring 50 pixels by 50 pixels. Out of these patches, 78,786 were classified as IDC-positive (indicative of cancer presence), and 198,738 were IDC-negative (indicative of no cancer presence).
+For this study, we utilized a dataset consisting of 162 whole-mount microscope slide images from patients at the Hospital of the University of Pennsylvania and The Cancer Institute of New Jersey. These images were magnified at 40x, and they were divided into 277,524 patches, each measuring 50 pixels by 50 pixels. Out of these patches, 78,786 were classified as IDC-positive (indicative of cancer presence), and 198,738 were IDC-negative (indicative of no cancer presence). ([Data source](https://bit.ly/3XBOdum))
 
-![Some images from the data  [Data source](https://bit.ly/3XBOdum)](/images/cancer_img.png)
+![Some images from the data  ](/images/cancer_img.png)
 
 ## Models Explored
 
