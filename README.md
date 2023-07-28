@@ -31,17 +31,20 @@ For this study, we utilized a dataset consisting of 162 whole-mount microscope s
 ### VGG (Visual Geometry Group)
 
 VGG was developed in 2015 by Karen Simonyan and Andrew Zisserman. It is known for its simplicity and uniformity in design, consisting of a series of convolutional layers with small filters followed by max-pooling layers. The commonly used architecture in the literature is VGG16, which is well-suited for computer vision tasks.
-{{< figure src="/images/vgg-16.jpg"  >}}
+
+![VGG16 diagram](/images/vgg-16.jpg)
 
 ### ResNet (Residual Neural Network)
 
 ResNet was developed in 2015 by Kaiming He and other scholars to address the vanishing gradient problem associated with increasing network depth. The architecture of ResNet includes residual connections, enabling the network to skip certain layers and directly propagate information. This structure leads to effective learning and better accuracy with increasing depth. In this project, we used ResNet34 instead of the commonly used ResNet50.
-{{< figure src="/images/Architecture-of-ResNet34-29.png"  >}}
+
+![Resnet34 diagram](/images/Architecture-of-ResNet34-29.png)
 
 ### Vision Transformers (ViT)
 
 Vision Transformers were introduced in 2020 by Alexey Dosovitskiy and other scholars. These models adapt the Transformer architecture from natural language processing to process images by dividing the image into patches and using self-attention mechanisms to capture relationships between them. Vision Transformers have demonstrated similar or better accuracy on image recognition tasks compared to state-of-the-art CNN-based models. However, they require more computational resources.
-{{< figure src="/images/vit_figure.png"  >}}
+
+![Vision Transformers diagram](/images/vit_figure.png)
 
 ## Model Performance
 
